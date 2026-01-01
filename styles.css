@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.header,
+.footer,
+.hero {
+    background: #1f2937;
+    color: #f9faf8;
+}
+
+.header-inner,
+.hero-container {
+    width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.website-name {
+    padding-top: 4px;
+    font-size: 24px;
+}
+
+.header-links {
+    list-style: none;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.hero-container {
+    padding: 64px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left {
+    text-align: left;
+    padding-right: 48px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+}
+
+.her0-left p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 5px 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-right img {
+    height: auto;
+    width : 400px;
+}
+
+.content {
+    padding: 32px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 64px;
+}
+
+.card-image {
+    border: 2px solid #3882f7;
+    border-radius: 10px;
+    height: auto;
+    width: 100px;
+}
+
+.quote-container {
+    background: #efe7eb;
+
+    display: flex;
+    justify-content: center;
+}
+
+.quote-inner {
+    width: 700px;
+    margin: 16px auto;
+}
+
+.quote {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.quoter {
+    font-weight: bold;
+    text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.call-to-action-container {
+    box-sizing: border-box;
+    width: 1000px;
+    max-width: 1000px;
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 16px 64px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container {
+    text-align: left;
+}
+
+.text-container * {
+    margin: 4px;
+}
+
+.call-to-action button {
+    border: 1px solid white;
+    box-sizing: content-box;
+}
+
+.footer {
+    height: 64px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
